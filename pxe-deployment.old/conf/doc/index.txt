@@ -1,0 +1,24 @@
+
+ d{v}{32,64}: Debian Installer         dban:     Darik's Boot and Nuke
+ u{v}{32,64}: Ubuntu Installer         seatools: Seagte Sea Tools
+ g{32,64}:    GRML Live Linux          diskmgr:  Seagate Disk Managers
+ a{32,64}:    Arch Linux Installer     powermax: Maxtor PowerMAX
+ s{32,64}:    openSUSE 11.3 Installer  maxblast: Maxtor Maxblast 
+                                       ssdm:     Samsung Disk Manager
+                                       datalife: WD Data Lifeguard
+ backtrack:  Backtrack Live            dlgudma:  WD Data Lifeguard UDMA
+ reactos:    ReactOS Live              dft:      Hitatchi Fitness Test
+ avira:      Avira Rescue System       ibmft:    IBM Feature Tool
+ clonezilla: CloneZilla Live          
+ gparted:    gParted Live              ddiag:     Dell Diagnostic Tools      
+ sgd{1,2}:   Super GRUB DISC 1/2       memcheckp  memtest86+
+ rescatux:   Rescatux Live CD          memcheck:  memtest86
+ ntpasswd:   NT Password Recovery      ddiag:     Dell Diagnostic Tools
+                                       bko:       boot.kernel.org
+ Zeichen-Erklaerung:                   netbootme: netboot.me
+ {v}   = Beliebige Versionsnummer      menu:      c32 based menu
+ {1,2} = 1 oder 2                      local:     Boot von lokaler HDD           
+
+ Livebuilds: lenny{32,64}, squeeze{32,64}, maverick{32,64}, natty{32,64}
+ 
+                                     linux-dev.de Networks PXE Boot Menu
