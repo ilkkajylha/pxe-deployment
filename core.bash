@@ -3,5 +3,12 @@ for i in $(ls distros/); do echo -n $(echo $i |sed -e 's/.sh//g') |sed -e 's|\(.
 cat selection.txt
 dialog --checklist "TODO: choose something:" 10 40 3 --file distros.txt 2> selection.txt
 
+readarray -t selection < selection.txt
+
+for i in $(echo ${selection[@]} | tr "," " ")
+do
+    ./distros/"$i".sh
+done
+
 
 
